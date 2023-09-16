@@ -1,0 +1,29 @@
+plugins {
+    id 'idea'
+    id 'java'
+}
+
+group = 'ua.com.yehorchevardin.java.patterns'
+version = '0.0.1'
+sourceCompatibility = '17'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+}
+
+jar {
+    duplicatesStrategy = 'exclude'
+    manifest {
+        attributes (
+                'Main-Class': 'ua.com.yehorchevardin.java.patterns.Main',
+                'Implementation-Title': 'MimosaCMS',
+                'Implementation-Version': '0.0.1'
+        )
+    }
+    from {
+        configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+}
