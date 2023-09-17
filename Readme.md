@@ -83,4 +83,12 @@
 > for another object to control access to it. It allows you to add an additional level of control over the interaction
 > with the real object.
 
-###
+## Behavioral patterns
+
+### Chain of responsibility
+
+> The Chain of Responsibility Pattern is a behavioral design pattern used in software engineering to create a chain of
+> objects that can handle a request or perform an action. It decouples the sender of a request from its receivers and
+> allows multiple objects to process the request independently.
+
+### 
