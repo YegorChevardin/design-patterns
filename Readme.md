@@ -128,4 +128,9 @@
 > relationship between objects so that when one object (the subject or observable) changes state, all its dependents (
 > observers) are notified and updated automatically.
 
+### State
+
+> The State Pattern is a behavioral design pattern used in software engineering to represent the state of an object as
+> an individual object and to manage state transitions in a clean and organized manner.
+
 ### 

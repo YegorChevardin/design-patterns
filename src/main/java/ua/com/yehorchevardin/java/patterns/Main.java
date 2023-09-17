@@ -7,6 +7,7 @@ import ua.com.yehorchevardin.java.patterns.behavioral.iterator.IteratorPattern;
 import ua.com.yehorchevardin.java.patterns.behavioral.mediator.MediatorPattern;
 import ua.com.yehorchevardin.java.patterns.behavioral.memento.MementoPattern;
 import ua.com.yehorchevardin.java.patterns.behavioral.observer.ObserverPattern;
+import ua.com.yehorchevardin.java.patterns.behavioral.state.StatePattern;
 import ua.com.yehorchevardin.java.patterns.creational.abstractfactory.AbstractFactory;
 import ua.com.yehorchevardin.java.patterns.creational.builder.BuilderPattern;
 import ua.com.yehorchevardin.java.patterns.creational.factorymethod.FactoryMethod;
@@ -82,6 +83,9 @@ public class Main {
     System.out.println();
     ObserverPattern observerPattern = new ObserverPattern();
     observerPattern.execute();
+    System.out.println();
+    StatePattern statePattern = new StatePattern();
+    statePattern.execute();
     System.out.println();
     System.out.println("App finished!");
   }
