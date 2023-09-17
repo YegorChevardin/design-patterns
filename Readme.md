@@ -133,4 +133,9 @@
 > The State Pattern is a behavioral design pattern used in software engineering to represent the state of an object as
 > an individual object and to manage state transitions in a clean and organized manner.
 
-### 
+### Strategy
+
+> The Strategy Pattern is a behavioral design pattern that allows you to define a family of interchangeable algorithms,
+> encapsulate each one as a separate class, and make them interchangeable. It enables clients to choose the appropriate
+> algorithm at runtime without altering the client's code.
+
