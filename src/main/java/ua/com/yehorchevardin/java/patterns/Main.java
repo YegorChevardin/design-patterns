@@ -1,6 +1,7 @@
 package ua.com.yehorchevardin.java.patterns;
 
 import ua.com.yehorchevardin.java.patterns.creational.abstractfactory.AbstractFactory;
+import ua.com.yehorchevardin.java.patterns.creational.builder.BuilderPattern;
 import ua.com.yehorchevardin.java.patterns.creational.factorymethod.FactoryMethod;
 import ua.com.yehorchevardin.java.patterns.creational.singleton.SingletonPattern;
 
@@ -15,6 +16,9 @@ public class Main {
     System.out.println();
     SingletonPattern singletonPattern = new SingletonPattern();
     singletonPattern.execute();
+    System.out.println();
+    BuilderPattern builderPattern = new BuilderPattern();
+    builderPattern.execute();
     System.out.println();
     System.out.println("App finished!");
   }

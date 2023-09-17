@@ -25,4 +25,10 @@
 > instance and provides a global point of access to that instance. In other words, it ensures that a class has only one
 > instance in the entire application and provides a way to access that instance from any part of the code.
 
-### 
+### Builder
+
+> The Builder Pattern is a design pattern used in software engineering for building complex objects step by step. It
+> offers several advantages and is particularly useful in situations where you need to create objects with many optional
+> parameters or configurations.
+
+###
