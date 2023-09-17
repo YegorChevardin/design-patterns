@@ -8,6 +8,7 @@ import ua.com.yehorchevardin.java.patterns.creational.singleton.SingletonPattern
 import ua.com.yehorchevardin.java.patterns.structural.adapter.AdapterPattern;
 import ua.com.yehorchevardin.java.patterns.structural.bridge.BridgePattern;
 import ua.com.yehorchevardin.java.patterns.structural.composite.CompositePattern;
+import ua.com.yehorchevardin.java.patterns.structural.decorator.DecoratorPattern;
 
 public class Main {
   public static void main(String[] args) {
@@ -37,6 +38,9 @@ public class Main {
     System.out.println();
     CompositePattern compositePattern = new CompositePattern();
     compositePattern.execute();
+    System.out.println();
+    DecoratorPattern decoratorPattern = new DecoratorPattern();
+    decoratorPattern.execute();
     System.out.println();
     System.out.println("App finished!");
   }

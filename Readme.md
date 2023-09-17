@@ -57,4 +57,11 @@
 > structures to represent part-whole hierarchies. It allows clients to treat individual objects and compositions of
 > objects (composites) uniformly.
 
-### 
+### Decorator
+
+> The Decorator Pattern is a structural design pattern used in software engineering to dynamically extend the behavior
+> of objects without altering their original class or modifying their code. It involves creating a set of decorator
+> classes that are used to wrap concrete components. Decorators add new responsibilities or modify existing ones of
+> objects at runtime, allowing for more flexible and reusable code.
+
+###
