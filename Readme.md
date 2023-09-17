@@ -105,4 +105,9 @@
 > and provide an interpreter to evaluate or interpret expressions in that language. It allows you to represent sentences
 > or expressions in a domain-specific language (DSL) and interpret them step by step.
 
+### Iterator
+
+> The Iterator Pattern is a behavioral design pattern used in software engineering to provide a standardized way to
+> traverse and access elements in a collection without exposing the underlying structure of that collection.
+
 ### 

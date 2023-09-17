@@ -3,6 +3,7 @@ package ua.com.yehorchevardin.java.patterns;
 import ua.com.yehorchevardin.java.patterns.behavioral.chainofresponsibility.ChainOfResponsibilityPattern;
 import ua.com.yehorchevardin.java.patterns.behavioral.command.CommandPattern;
 import ua.com.yehorchevardin.java.patterns.behavioral.interpreter.InterpreterPattern;
+import ua.com.yehorchevardin.java.patterns.behavioral.iterator.IteratorPattern;
 import ua.com.yehorchevardin.java.patterns.creational.abstractfactory.AbstractFactory;
 import ua.com.yehorchevardin.java.patterns.creational.builder.BuilderPattern;
 import ua.com.yehorchevardin.java.patterns.creational.factorymethod.FactoryMethod;
@@ -66,6 +67,9 @@ public class Main {
     System.out.println();
     InterpreterPattern interpreterPattern = new InterpreterPattern();
     interpreterPattern.execute();
+    System.out.println();
+    IteratorPattern iteratorPattern = new IteratorPattern();
+    iteratorPattern.execute();
     System.out.println();
     System.out.println("App finished!");
   }
