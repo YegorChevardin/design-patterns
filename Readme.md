@@ -122,4 +122,10 @@
 > internal state so that the object can be restored to that state later. It allows you to save and restore an object's
 > state without exposing the details of its implementation.
 
+### Observer
+
+> The Observer Pattern is a behavioral design pattern used in software engineering to establish a one-to-many dependency
+> relationship between objects so that when one object (the subject or observable) changes state, all its dependents (
+> observers) are notified and updated automatically.
+
 ### 
