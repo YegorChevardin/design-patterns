@@ -139,3 +139,10 @@
 > encapsulate each one as a separate class, and make them interchangeable. It enables clients to choose the appropriate
 > algorithm at runtime without altering the client's code.
 
+### Template method
+
+> The Template Method Pattern is a behavioral design pattern used in software engineering to define the skeleton or
+> structure of an algorithm in a method but allow subclasses to provide specific implementations of some steps of the
+> algorithm. It promotes code reusability and helps enforce a consistent structure for related algorithms while allowing
+> customization of certain parts of those algorithms.
+
