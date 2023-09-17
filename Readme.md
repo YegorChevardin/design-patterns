@@ -64,4 +64,10 @@
 > classes that are used to wrap concrete components. Decorators add new responsibilities or modify existing ones of
 > objects at runtime, allowing for more flexible and reusable code.
 
+### Facade
+
+> The Facade Pattern is a structural design pattern used in software engineering to provide a simplified, unified
+> interface to a set of interfaces or a complex subsystem. It acts as a single entry point for a group of related
+> functionalities, making it easier for clients to interact with the system.
+
 ###

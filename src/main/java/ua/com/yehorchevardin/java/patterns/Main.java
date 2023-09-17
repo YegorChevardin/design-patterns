@@ -9,6 +9,7 @@ import ua.com.yehorchevardin.java.patterns.structural.adapter.AdapterPattern;
 import ua.com.yehorchevardin.java.patterns.structural.bridge.BridgePattern;
 import ua.com.yehorchevardin.java.patterns.structural.composite.CompositePattern;
 import ua.com.yehorchevardin.java.patterns.structural.decorator.DecoratorPattern;
+import ua.com.yehorchevardin.java.patterns.structural.facade.FacadePattern;
 
 public class Main {
   public static void main(String[] args) {
@@ -41,6 +42,9 @@ public class Main {
     System.out.println();
     DecoratorPattern decoratorPattern = new DecoratorPattern();
     decoratorPattern.execute();
+    System.out.println();
+    FacadePattern facadePattern = new FacadePattern();
+    facadePattern.execute();
     System.out.println();
     System.out.println("App finished!");
   }
