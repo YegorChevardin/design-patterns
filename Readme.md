@@ -31,4 +31,9 @@
 > offers several advantages and is particularly useful in situations where you need to create objects with many optional
 > parameters or configurations.
 
-###
+### Prototype
+
+> The Prototype Pattern is a design pattern used in software engineering to create new objects by copying an existing
+> object, known as the prototype. It provides a way to create new objects with minimal effort and without the need for
+> complex initialization logic.
+

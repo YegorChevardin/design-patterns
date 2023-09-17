@@ -3,6 +3,7 @@ package ua.com.yehorchevardin.java.patterns;
 import ua.com.yehorchevardin.java.patterns.creational.abstractfactory.AbstractFactory;
 import ua.com.yehorchevardin.java.patterns.creational.builder.BuilderPattern;
 import ua.com.yehorchevardin.java.patterns.creational.factorymethod.FactoryMethod;
+import ua.com.yehorchevardin.java.patterns.creational.prototype.PrototypePattern;
 import ua.com.yehorchevardin.java.patterns.creational.singleton.SingletonPattern;
 
 public class Main {
@@ -19,6 +20,9 @@ public class Main {
     System.out.println();
     BuilderPattern builderPattern = new BuilderPattern();
     builderPattern.execute();
+    System.out.println();
+    PrototypePattern prototypePattern = new PrototypePattern();
+    prototypePattern.execute();
     System.out.println();
     System.out.println("App finished!");
   }
