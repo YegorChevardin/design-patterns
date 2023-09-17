@@ -116,4 +116,10 @@
 > components or objects by centralizing their communication through a mediator or coordinator. It aims to reduce direct
 > relationships between components and encourages a more organized and maintainable system.
 
+### Memento
+
+> The Memento Pattern is a behavioral design pattern used in software engineering to capture and externalize an object's
+> internal state so that the object can be restored to that state later. It allows you to save and restore an object's
+> state without exposing the details of its implementation.
+
 ### 
