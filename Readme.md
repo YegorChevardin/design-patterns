@@ -70,4 +70,10 @@
 > interface to a set of interfaces or a complex subsystem. It acts as a single entry point for a group of related
 > functionalities, making it easier for clients to interact with the system.
 
-###
+### Flyweight
+
+> The Flyweight Pattern is a structural design pattern used in software engineering to minimize memory usage and improve
+> performance when dealing with a large number of objects that have a significant amount of shared, intrinsic (invariant)
+> state. It achieves this by sharing common state among multiple objects instead of duplicating it for each instance.
+
+### 

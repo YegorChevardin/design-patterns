@@ -10,6 +10,7 @@ import ua.com.yehorchevardin.java.patterns.structural.bridge.BridgePattern;
 import ua.com.yehorchevardin.java.patterns.structural.composite.CompositePattern;
 import ua.com.yehorchevardin.java.patterns.structural.decorator.DecoratorPattern;
 import ua.com.yehorchevardin.java.patterns.structural.facade.FacadePattern;
+import ua.com.yehorchevardin.java.patterns.structural.flyweight.FlyweightPattern;
 
 public class Main {
   public static void main(String[] args) {
@@ -45,6 +46,9 @@ public class Main {
     System.out.println();
     FacadePattern facadePattern = new FacadePattern();
     facadePattern.execute();
+    System.out.println();
+    FlyweightPattern flyweightPattern = new FlyweightPattern();
+    flyweightPattern.execute();
     System.out.println();
     System.out.println("App finished!");
   }
