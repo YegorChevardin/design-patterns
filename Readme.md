@@ -91,4 +91,11 @@
 > objects that can handle a request or perform an action. It decouples the sender of a request from its receivers and
 > allows multiple objects to process the request independently.
 
-### 
+### Command
+
+> A Command Interface, often referred to simply as the Command Pattern, is a behavioral design pattern used in software
+> engineering to encapsulate a request as an object, thereby allowing for parameterization of clients with queues,
+> requests, and operations. It turns a request into a stand-alone object with its own state, which can be passed, stored,
+> and executed independently.
+
+###

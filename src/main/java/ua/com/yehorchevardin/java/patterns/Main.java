@@ -1,6 +1,7 @@
 package ua.com.yehorchevardin.java.patterns;
 
 import ua.com.yehorchevardin.java.patterns.behavioral.chainofresponsibility.ChainOfResponsibilityPattern;
+import ua.com.yehorchevardin.java.patterns.behavioral.command.CommandPattern;
 import ua.com.yehorchevardin.java.patterns.creational.abstractfactory.AbstractFactory;
 import ua.com.yehorchevardin.java.patterns.creational.builder.BuilderPattern;
 import ua.com.yehorchevardin.java.patterns.creational.factorymethod.FactoryMethod;
@@ -58,6 +59,9 @@ public class Main {
     System.out.println("Behavioral patterns section start");
     ChainOfResponsibilityPattern chainOfResponsibilityPattern = new ChainOfResponsibilityPattern();
     chainOfResponsibilityPattern.execute();
+    System.out.println();
+    CommandPattern commandPattern = new CommandPattern();
+    commandPattern.execute();
     System.out.println();
     System.out.println("App finished!");
   }
