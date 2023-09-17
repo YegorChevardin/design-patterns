@@ -73,7 +73,14 @@
 ### Flyweight
 
 > The Flyweight Pattern is a structural design pattern used in software engineering to minimize memory usage and improve
-> performance when dealing with a large number of objects that have a significant amount of shared, intrinsic (invariant)
+> performance when dealing with a large number of objects that have a significant amount of shared, intrinsic (
+> invariant)
 > state. It achieves this by sharing common state among multiple objects instead of duplicating it for each instance.
 
-### 
+### Proxy
+
+> The Proxy Pattern is a structural design pattern used in software engineering to provide a surrogate or placeholder
+> for another object to control access to it. It allows you to add an additional level of control over the interaction
+> with the real object.
+
+###

@@ -11,6 +11,7 @@ import ua.com.yehorchevardin.java.patterns.structural.composite.CompositePattern
 import ua.com.yehorchevardin.java.patterns.structural.decorator.DecoratorPattern;
 import ua.com.yehorchevardin.java.patterns.structural.facade.FacadePattern;
 import ua.com.yehorchevardin.java.patterns.structural.flyweight.FlyweightPattern;
+import ua.com.yehorchevardin.java.patterns.structural.proxy.ProxyPattern;
 
 public class Main {
   public static void main(String[] args) {
@@ -49,6 +50,9 @@ public class Main {
     System.out.println();
     FlyweightPattern flyweightPattern = new FlyweightPattern();
     flyweightPattern.execute();
+    System.out.println();
+    ProxyPattern proxyPattern = new ProxyPattern();
+    proxyPattern.execute();
     System.out.println();
     System.out.println("App finished!");
   }
