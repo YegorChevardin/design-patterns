@@ -7,10 +7,12 @@ import ua.com.yehorchevardin.java.patterns.creational.prototype.PrototypePattern
 import ua.com.yehorchevardin.java.patterns.creational.singleton.SingletonPattern;
 import ua.com.yehorchevardin.java.patterns.structural.adapter.AdapterPattern;
 import ua.com.yehorchevardin.java.patterns.structural.bridge.BridgePattern;
+import ua.com.yehorchevardin.java.patterns.structural.composite.CompositePattern;
 
 public class Main {
   public static void main(String[] args) {
     System.out.println("App started!");
+    System.out.println("Creation patterns section start");
     FactoryMethod factoryMethod = new FactoryMethod();
     factoryMethod.execute();
     System.out.println();
@@ -26,11 +28,15 @@ public class Main {
     PrototypePattern prototypePattern = new PrototypePattern();
     prototypePattern.execute();
     System.out.println();
+    System.out.println("Structural patterns section start");
     AdapterPattern adapterPattern = new AdapterPattern();
     adapterPattern.execute();
     System.out.println();
     BridgePattern bridgePattern = new BridgePattern();
     bridgePattern.execute();
+    System.out.println();
+    CompositePattern compositePattern = new CompositePattern();
+    compositePattern.execute();
     System.out.println();
     System.out.println("App finished!");
   }

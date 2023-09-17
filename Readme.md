@@ -51,4 +51,10 @@
 > from its implementation so that both can vary independently. It achieves this by creating two separate hierarchies of
 > classes—one for the abstraction and one for the implementation—linked together by a bridge interface.
 
-###
+### Composite
+
+> The Composite Pattern is a structural design pattern used in software engineering to compose objects into tree-like
+> structures to represent part-whole hierarchies. It allows clients to treat individual objects and compositions of
+> objects (composites) uniformly.
+
+### 
