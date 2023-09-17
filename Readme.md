@@ -95,7 +95,14 @@
 
 > A Command Interface, often referred to simply as the Command Pattern, is a behavioral design pattern used in software
 > engineering to encapsulate a request as an object, thereby allowing for parameterization of clients with queues,
-> requests, and operations. It turns a request into a stand-alone object with its own state, which can be passed, stored,
+> requests, and operations. It turns a request into a stand-alone object with its own state, which can be passed,
+> stored,
 > and executed independently.
 
-###
+### Interpreter
+
+> The Interpreter Pattern is a behavioral design pattern used in software engineering to define a grammar for a language
+> and provide an interpreter to evaluate or interpret expressions in that language. It allows you to represent sentences
+> or expressions in a domain-specific language (DSL) and interpret them step by step.
+
+### 
