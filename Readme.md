@@ -110,4 +110,10 @@
 > The Iterator Pattern is a behavioral design pattern used in software engineering to provide a standardized way to
 > traverse and access elements in a collection without exposing the underlying structure of that collection.
 
+### Mediator
+
+> The Mediator Pattern is a behavioral design pattern used in software engineering to promote loose coupling between
+> components or objects by centralizing their communication through a mediator or coordinator. It aims to reduce direct
+> relationships between components and encourages a more organized and maintainable system.
+
 ### 
