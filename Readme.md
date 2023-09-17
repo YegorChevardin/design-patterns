@@ -83,4 +83,73 @@
 > for another object to control access to it. It allows you to add an additional level of control over the interaction
 > with the real object.
 
-###
+## Behavioral patterns
+
+### Chain of responsibility
+
+> The Chain of Responsibility Pattern is a behavioral design pattern used in software engineering to create a chain of
+> objects that can handle a request or perform an action. It decouples the sender of a request from its receivers and
+> allows multiple objects to process the request independently.
+
+### Command
+
+> A Command Interface, often referred to simply as the Command Pattern, is a behavioral design pattern used in software
+> engineering to encapsulate a request as an object, thereby allowing for parameterization of clients with queues,
+> requests, and operations. It turns a request into a stand-alone object with its own state, which can be passed,
+> stored,
+> and executed independently.
+
+### Interpreter
+
+> The Interpreter Pattern is a behavioral design pattern used in software engineering to define a grammar for a language
+> and provide an interpreter to evaluate or interpret expressions in that language. It allows you to represent sentences
+> or expressions in a domain-specific language (DSL) and interpret them step by step.
+
+### Iterator
+
+> The Iterator Pattern is a behavioral design pattern used in software engineering to provide a standardized way to
+> traverse and access elements in a collection without exposing the underlying structure of that collection.
+
+### Mediator
+
+> The Mediator Pattern is a behavioral design pattern used in software engineering to promote loose coupling between
+> components or objects by centralizing their communication through a mediator or coordinator. It aims to reduce direct
+> relationships between components and encourages a more organized and maintainable system.
+
+### Memento
+
+> The Memento Pattern is a behavioral design pattern used in software engineering to capture and externalize an object's
+> internal state so that the object can be restored to that state later. It allows you to save and restore an object's
+> state without exposing the details of its implementation.
+
+### Observer
+
+> The Observer Pattern is a behavioral design pattern used in software engineering to establish a one-to-many dependency
+> relationship between objects so that when one object (the subject or observable) changes state, all its dependents (
+> observers) are notified and updated automatically.
+
+### State
+
+> The State Pattern is a behavioral design pattern used in software engineering to represent the state of an object as
+> an individual object and to manage state transitions in a clean and organized manner.
+
+### Strategy
+
+> The Strategy Pattern is a behavioral design pattern that allows you to define a family of interchangeable algorithms,
+> encapsulate each one as a separate class, and make them interchangeable. It enables clients to choose the appropriate
+> algorithm at runtime without altering the client's code.
+
+### Template method
+
+> The Template Method Pattern is a behavioral design pattern used in software engineering to define the skeleton or
+> structure of an algorithm in a method but allow subclasses to provide specific implementations of some steps of the
+> algorithm. It promotes code reusability and helps enforce a consistent structure for related algorithms while allowing
+> customization of certain parts of those algorithms.
+
+### Visitor
+
+> The Visitor Pattern is a behavioral design pattern used in software engineering to represent an operation to be
+> performed on the elements of an object structure. It allows you to define a new operation without changing the classes
+> of the elements on which it operates. The Visitor Pattern separates the algorithm from the object structure, promoting
+> extensibility and maintainability.
+
