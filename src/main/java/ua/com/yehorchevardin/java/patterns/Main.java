@@ -10,6 +10,7 @@ import ua.com.yehorchevardin.java.patterns.behavioral.observer.ObserverPattern;
 import ua.com.yehorchevardin.java.patterns.behavioral.state.StatePattern;
 import ua.com.yehorchevardin.java.patterns.behavioral.strategy.StrategyPattern;
 import ua.com.yehorchevardin.java.patterns.behavioral.template.TemplatePattern;
+import ua.com.yehorchevardin.java.patterns.behavioral.visitor.VisitorPattern;
 import ua.com.yehorchevardin.java.patterns.creational.abstractfactory.AbstractFactory;
 import ua.com.yehorchevardin.java.patterns.creational.builder.BuilderPattern;
 import ua.com.yehorchevardin.java.patterns.creational.factorymethod.FactoryMethod;
@@ -94,6 +95,9 @@ public class Main {
     System.out.println();
     TemplatePattern templatePattern = new TemplatePattern();
     templatePattern.execute();
+    System.out.println();
+    VisitorPattern visitorPattern = new VisitorPattern();
+    visitorPattern.execute();
     System.out.println();
     System.out.println("App finished!");
   }

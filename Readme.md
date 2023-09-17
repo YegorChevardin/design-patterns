@@ -146,3 +146,10 @@
 > algorithm. It promotes code reusability and helps enforce a consistent structure for related algorithms while allowing
 > customization of certain parts of those algorithms.
 
+### Visitor
+
+> The Visitor Pattern is a behavioral design pattern used in software engineering to represent an operation to be
+> performed on the elements of an object structure. It allows you to define a new operation without changing the classes
+> of the elements on which it operates. The Visitor Pattern separates the algorithm from the object structure, promoting
+> extensibility and maintainability.
+
