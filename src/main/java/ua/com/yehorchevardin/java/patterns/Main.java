@@ -5,6 +5,7 @@ import ua.com.yehorchevardin.java.patterns.creational.builder.BuilderPattern;
 import ua.com.yehorchevardin.java.patterns.creational.factorymethod.FactoryMethod;
 import ua.com.yehorchevardin.java.patterns.creational.prototype.PrototypePattern;
 import ua.com.yehorchevardin.java.patterns.creational.singleton.SingletonPattern;
+import ua.com.yehorchevardin.java.patterns.structural.adapter.AdapterPattern;
 
 public class Main {
   public static void main(String[] args) {
@@ -23,6 +24,9 @@ public class Main {
     System.out.println();
     PrototypePattern prototypePattern = new PrototypePattern();
     prototypePattern.execute();
+    System.out.println();
+    AdapterPattern adapterPattern = new AdapterPattern();
+    adapterPattern.execute();
     System.out.println();
     System.out.println("App finished!");
   }

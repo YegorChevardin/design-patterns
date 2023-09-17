@@ -37,3 +37,12 @@
 > object, known as the prototype. It provides a way to create new objects with minimal effort and without the need for
 > complex initialization logic.
 
+## Structural Patterns
+
+### Adapter
+
+> The Adapter Pattern is a design pattern used in software engineering to allow two incompatible interfaces to work
+> together. It acts as a bridge between two interfaces that are not compatible with each other due to differences in
+> method signatures, parameter types, or behavior.
+
+###
