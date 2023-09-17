@@ -45,4 +45,10 @@
 > together. It acts as a bridge between two interfaces that are not compatible with each other due to differences in
 > method signatures, parameter types, or behavior.
 
+### Bridge
+
+> The Bridge Pattern is a structural design pattern used in software engineering to separate an object's abstraction
+> from its implementation so that both can vary independently. It achieves this by creating two separate hierarchies of
+> classes—one for the abstraction and one for the implementation—linked together by a bridge interface.
+
 ###

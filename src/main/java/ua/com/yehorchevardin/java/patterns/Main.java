@@ -6,6 +6,7 @@ import ua.com.yehorchevardin.java.patterns.creational.factorymethod.FactoryMetho
 import ua.com.yehorchevardin.java.patterns.creational.prototype.PrototypePattern;
 import ua.com.yehorchevardin.java.patterns.creational.singleton.SingletonPattern;
 import ua.com.yehorchevardin.java.patterns.structural.adapter.AdapterPattern;
+import ua.com.yehorchevardin.java.patterns.structural.bridge.BridgePattern;
 
 public class Main {
   public static void main(String[] args) {
@@ -27,6 +28,9 @@ public class Main {
     System.out.println();
     AdapterPattern adapterPattern = new AdapterPattern();
     adapterPattern.execute();
+    System.out.println();
+    BridgePattern bridgePattern = new BridgePattern();
+    bridgePattern.execute();
     System.out.println();
     System.out.println("App finished!");
   }
